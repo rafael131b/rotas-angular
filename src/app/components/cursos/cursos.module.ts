@@ -10,7 +10,7 @@ import { CursosRoutingModule } from './cursos.routing.module';
 
 
 @NgModule({
-    imports: [CommonModule,RouterModule,CursosRoutingModule],
+    imports: [CommonModule,RouterModule,CursosRoutingModule ],
     exports: [],
     declarations: [
         CursosDetalhesComponent,

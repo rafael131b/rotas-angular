@@ -9,6 +9,7 @@ import { MenuComponent } from './components/menu/menu.component';
 
 import { FormsModule } from '@angular/forms';
 import { CursosModule } from './components/cursos/cursos.module';
+import { AlunosModule } from './components/alunos/alunos.module';
 
 
 
@@ -21,13 +22,15 @@ import { CursosModule } from './components/cursos/cursos.module';
     
     
     
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     FormsModule,
-    CursosModule
+    CursosModule,
+    AlunosModule
   ],
   providers: [],
   bootstrap: [AppComponent]

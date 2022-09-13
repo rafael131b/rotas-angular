@@ -1,9 +1,9 @@
 <main>
-    <input #idCurso type="text" [(ngModel)]="id"> 
-    <a routerLink="curso" [queryParams]="{pagina:1}">Cursos</a>
+    <!-- <input #idCurso type="text" [(ngModel)]="id"> 
+    <a routerLink="curso" [queryParams]="{pagina:1}">Cursos</a> -->
 
    <p>{{id}}</p>
+   <a [routerLink]="['cursos',curso.id]" *ngFor="let curso of cursos">{{curso.nome}}</a>
+   <a routerLink="/alunos">Alunos</a>
 </main>
-<a [routerLink]="['cursos',curso.id]" *ngFor="let curso of cursos">{{curso.nome}}</a>
-
 

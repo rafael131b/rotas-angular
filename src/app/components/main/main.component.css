@@ -2,3 +2,6 @@ main{
     min-height: 80vh;
     background-color: bisque;
 }
+a{
+    padding: 10px;
+}

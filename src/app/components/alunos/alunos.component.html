@@ -1,0 +1,6 @@
+<p>Lista de alunos!</p>
+<ul class="list-group">
+    <li class="list-group-item" *ngFor="let aluno of alunos"><a [routerLink]="[aluno.id]">{{aluno.nome}}</a></li>
+
+</ul>
+<router-outlet></router-outlet>
